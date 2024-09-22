@@ -30,6 +30,6 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arison99&" alt="arison99" /></p>
 
-![Snake animation](https://raw.githubusercontent.com/arison99/arison99/output/github-contribution-grid-snake-dark.svg)
+![snake animation](https://github.com/arison99/arison99/blob/output/github-contribution-grid-snake2.svg)
 
  
