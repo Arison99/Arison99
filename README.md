@@ -30,7 +30,6 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arison99&" alt="arison99" /></p>
 
-## Feeding...
-![Snake animation](https://raw.githubusercontent.com/taozhi8833998/taozhi8833998/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/arison99/arison99/output/github-contribution-grid-snake-dark.svg)
 
-  <img width="385px" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=arison99&layout=compact&theme=onedark" />
+ 
