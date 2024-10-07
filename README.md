@@ -7,13 +7,13 @@
 
 - 🔭 I’m currently working on **Yo' Clinic (Web app for Clinic Mgt)**
 
-- 🌱 I’m currently learning **Web development, Embedded Systems & DataOps**
+- 🌱 I’m currently learning **Web development, Distributed & Embedded Systems,Network Programming & DataOps**
 
 - 👯 I’m looking to collaborate on **Open source projects**
 
 - 👨‍💻 All of my projects are available at [github.com/Arison99](github.com/Arison99)
 
-- 💬 Ask me about **Computers & Fine Art**
+- 💬 Ask me about **Networks,Computers & Fine Art**
 
 - 📫 How to reach me **byonanebye.arison@student.utamu.ac.ug**
 
