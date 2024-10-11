@@ -26,7 +26,7 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=arison99&show_icons=true&locale=en&layout=compact" alt="arison99" /></p>
  
-  <a href="https://github.com/Rez4-3yz"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arison99&theme=white"/>
+  <a href="https://github.com/Rez4-3yz"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arison99&theme=tokyonight"/>
 
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arison99&show_icons=true&locale=en" alt="arison99" /></p>
