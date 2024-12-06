@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arison99" alt="arison99" /></a> </p>
 
-- 🔭 I’m currently working on **Yo' Clinic (Web app for Clinic Mgt)**
+- 🔭 I’m currently working on **AI Model( Forex Predictor)**
 
-- 🌱 I’m currently learning **Web development, Distributed & Embedded Systems,Network Programming & DataOps**
+- 🌱 I’m currently learning **Web development, DSA, LeetCode, AI/ML, Distributed & Embedded Systems,Network Programming & DataOps**
 
 - 👯 I’m looking to collaborate on **Open source projects**
 
