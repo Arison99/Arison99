@@ -34,4 +34,4 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arison99&" alt="arison99" /></p>
 
 
-![GitHub Contribution Snake](https://github.com/<your-username>/<your-username>/blob/output/github-contribution-grid-snake.svg)
+![GitHub Contribution Snake](https://github.com/arison99/arison99/blob/output/github-contribution-grid-snake.svg)
