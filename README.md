@@ -15,7 +15,7 @@
 
 - 💬 Ask me about **Networks,Computers & Fine Art**
 
-- 📫 How to reach me **byonanebye.arison@student.utamu.ac.ug**
+- 📫 How to reach me **harrisondaviinci@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
