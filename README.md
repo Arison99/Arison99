@@ -37,7 +37,5 @@
 
 <br clear="both">
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/Arison99?ext=activity)
+![Leetcode Stats](https://leetcard.jacoblin.cool/arison99?ext=activity)
 
-
-(https://github.com/arison99/arison99/blob/output/github-contribution-grid-snake.svg)
