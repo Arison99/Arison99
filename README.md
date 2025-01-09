@@ -37,7 +37,6 @@ https://x.com/HDViinci
  
   <a href="https://github.com/Arison99"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arison99&theme=tokyonight"/>
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Arison99&theme=default)
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arison99&show_icons=true&locale=en" alt="arison99" /></p>
 
