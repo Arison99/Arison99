@@ -46,10 +46,12 @@ https://x.com/HDViinci
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Arison99&theme=default&utcOffset=8)
 
+<a href='https://github.com/arison/github-stats-transparent'>
+
 ![Stats Overview](https://raw.githubusercontent.com/Arison99/github-stats-transparent/output/generated/overview.svg)
 
 ![Most Used Languages](https://raw.githubusercontent.com/Arison99/github-stats-transparent/output/generated/languages.svg)
-
+</a>
 
 ###
 
