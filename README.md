@@ -39,6 +39,10 @@ https://x.com/HDViinci
  
   <a href="https://github.com/Arison99"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arison99&theme=tokyonight"/>
 
+<a href="#">
+  <img height=200 align="center" src="https://my-stats-43gk.vercel.app/api/top-langs/?username=arison99&hide=scss&langs_count=8&layout=compact&theme=radical&card_width=150" />
+</a>
+
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arison99&show_icons=true&locale=en" alt="arison99" /></p>
 
@@ -46,9 +50,6 @@ https://x.com/HDViinci
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arison99&theme=default&utcOffset=8)
 
-<a href="#">
-  <img height=200 align="center" src="https://my-stats-43gk.vercel.app/api/top-langs/?username=arison99&hide=html,scss,css&langs_count=8&layout=compact&theme=radical&card_width=150" />
-</a>
 
 ###
 
