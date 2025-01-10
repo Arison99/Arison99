@@ -44,7 +44,7 @@ https://x.com/HDViinci
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arison99&" alt="arison99" /></p>
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Arison99&theme=default&utcOffset=8)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arison99&theme=default&utcOffset=8)
 
 <a href='https://github.com/arison99/github-stats-transparent'>
 
