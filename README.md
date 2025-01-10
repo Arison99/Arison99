@@ -46,10 +46,8 @@ https://x.com/HDViinci
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arison99&theme=default&utcOffset=8)
 
-<a href='https://github.com/arison99/github-stats-transparent'>
-
-![Stats Overview](https://raw.githubusercontent.com/Arison99/github-stats-transparent/output/generated/overview.svg)
-![Most Used Languages](https://raw.githubusercontent.com/Arison99/github-stats-transparent/output/generated/languages.svg)
+<a href="#">
+  <img height=200 align="center" src="https://my-stats-43gk.vercel.app/api/top-langs/?username=blocage&hide=html,scss,css&langs_count=8&layout=compact&theme=radical&card_width=150" />
 </a>
 
 ###
