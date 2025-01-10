@@ -47,7 +47,7 @@ https://x.com/HDViinci
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=arison99&theme=default&utcOffset=8)
 
 <a href="#">
-  <img height=200 align="center" src="https://my-stats-43gk.vercel.app/api/top-langs/?username=blocage&hide=html,scss,css&langs_count=8&layout=compact&theme=radical&card_width=150" />
+  <img height=200 align="center" src="https://my-stats-43gk.vercel.app/api/top-langs/?username=arison99&hide=html,scss,css&langs_count=8&layout=compact&theme=radical&card_width=150" />
 </a>
 
 ###
