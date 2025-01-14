@@ -14,7 +14,9 @@
 
 <img align="center" src="./LocalHive.webp" width="100%" height="400px"> 
 
-<p align="center"> **Sparrow** <p>
+<p align="center"> 
+  <b> Sparrow </b>
+ </p>
 
 <img align="center" src="./Sparrow.png" width="100%" height="400px" >
 <b>
