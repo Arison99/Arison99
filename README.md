@@ -10,7 +10,9 @@
 
 - 🔭 I’m currently working on **AI Model( Forex Predictor)** 
 
-<p align="center"> **LocalHive** <p>
+<p align="center">
+<b> LocalHive </b>
+ </p>
 
 <img align="center" src="./LocalHive.webp" width="100%" height="400px"> 
 
