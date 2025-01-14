@@ -33,11 +33,6 @@
 
 - 📫 How to reach me **harrisondaviinci@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
-
-https://x.com/HDViinci
 
 
 <h3 align="left">Languages and Tools:</h3>
