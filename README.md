@@ -3,14 +3,14 @@
 <h1 align="center">Hi 👋, I'm Arison</h1>
 <h3 align="center">A passionate Software Engineering student from Uganda.</h3>
 
-<img align="center" alt="GIF" src="https://raw.githubusercontent.com/Arison99/Arison99/main/techstack.gif" width="100%" height="700px"/>
+<img align="center" alt="GIF" src="https://raw.githubusercontent.com/Arison99/Arison99/main/techstack.gif" width="100%" height="500px"/>
 
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arison99" alt="arison99" /></a> </p>
 
 - 🔭 I’m currently working on **AI Model( Forex Predictor)** | **LocalHive** | **Sparrow**
-<img align="center" src="./LocalHive.webp" width="100%" height="700px"> 
-<img align="center" src="./Sparrow.png" width="100%" height="700px" >
+<img align="center" src="./LocalHive.webp" width="100%" height="500px"> 
+<img align="center" src="./Sparrow.png" width="100%" height="500px" >
 
 - 🌱 I’m currently learning **Web development, DSA, LeetCode, AI/ML, Distributed & Embedded Systems,Network Programming & DataOps**
 
