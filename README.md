@@ -10,11 +10,11 @@
 
 - 🔭 I’m currently working on **AI Model( Forex Predictor)** 
 
-<p align="center"> LocalHive <p>
+<p align="center"> **LocalHive** <p>
 
 <img align="center" src="./LocalHive.webp" width="100%" height="400px"> 
 
-<p align="center"> Sparrow <p>
+<p align="center"> **Sparrow** <p>
 
 <img align="center" src="./Sparrow.png" width="100%" height="400px" >
 <b>
