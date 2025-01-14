@@ -8,9 +8,16 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arison99" alt="arison99" /></a> </p>
 
-- 🔭 I’m currently working on **AI Model( Forex Predictor)** | **LocalHive** | **Sparrow**
+- 🔭 I’m currently working on **AI Model( Forex Predictor)** 
+
+<p align="center"> LocalHive <p>
+
 <img align="center" src="./LocalHive.webp" width="100%" height="400px"> 
+
+<p align="center"> Sparrow <p>
+
 <img align="center" src="./Sparrow.png" width="100%" height="400px" >
+<b>
 
 - 🌱 I’m currently learning **Web development, DSA, LeetCode, AI/ML, Distributed & Embedded Systems,Network Programming & DataOps**
 
