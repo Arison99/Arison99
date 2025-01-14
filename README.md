@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Arison</h1>
 <h3 align="center">A passionate Software Engineering student from Uganda.</h3>
 
-<img align="center" alt="GIF" src="https://raw.githubusercontent.com/Arison99/Arison99/main/techstack.gif" width="100%" height="400px"/>
+<img align="center" alt="GIF" src="https://raw.githubusercontent.com/Arison99/Arison99/main/techstack.gif" width="100%" height="700px"/>
 
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arison99" alt="arison99" /></a> </p>
