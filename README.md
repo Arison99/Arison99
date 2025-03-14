@@ -23,7 +23,7 @@
 <img align="center" src="./Sparrow.png" width="100%" height="400px" >
 <b>
 
-- 🌱 I’m currently learning **Web development, DSA, LeetCode, AI/ML, Distributed & Embedded Systems,Real-Time-Systems,Complex Systems,Network Programming & DataOps**
+- 🌱 I’m currently learning **Web development, DSA, LeetCode, AI/ML, Distributed & Embedded Systems,  Real-Time-Systems, Complex Systems, Network Programming & DataOps**
 
 - 👯 I’m looking to collaborate on **Open source projects**
 
