@@ -48,7 +48,7 @@
   <a href="https://github.com/Arison99"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Arison99&theme=tokyonight"/>
 
 <a href="#">
-  <img height=200 align="center" src="https://my-stats-43gk.vercel.app/api/top-langs/?username=arison99&hide=html,css,scss&langs_count=8&layout=compact&theme=radical&card_width=160" />
+  <img height=200 align="center" src="https://my-stats-43gk.vercel.app/api/top-langs/?username=arison99&hide=html,css,blade,scss&langs_count=8&layout=compact&theme=radical&card_width=160" />
 </a>
 
 
