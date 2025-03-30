@@ -1,5 +1,5 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arison99&label=Profile%20views&color=0e75b6&style=flat" alt="arison99" />
-[![committers.top badge](https://user-badge.committers.top/uganda_public/Arison99.svg)](https://user-badge.committers.top/uganda_public/Arison99)
+[![committers.top badge](https://user-badge.committers.top/uganda_public/USERNAME.svg)](https://user-badge.committers.top/uganda_public/USERNAME)
 
  </p>
 
