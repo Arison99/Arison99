@@ -1,8 +1,10 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]
-  workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  schedule: 
+    - cron: "0 0 * * *"  # Daily at midnight UTC
+  workflow_dispatch:  # Manual trigger
+  push: 
+    branches: ["master", "main"]
 
 jobs:
   # Main comprehensive metrics
@@ -18,8 +20,22 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Africa/Kampala
+          
+          # Core plugins
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+          
+          plugin_lines: yes
+          plugin_followup: yes
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_limit: 5
 
-  # Mildly interesting facts
+  # Interesting coding facts
   habits-facts:
     runs-on: ubuntu-latest
     permissions:
@@ -34,9 +50,11 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
+          plugin_habits_from: 200
+          plugin_habits_days: 14
           config_timezone: Africa/Kampala
 
-  # Recent activity charts  
+  # Coding habits charts
   habits-charts:
     runs-on: ubuntu-latest
     permissions:
@@ -51,10 +69,14 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_languages_limit: 8
           config_timezone: Africa/Kampala
 
-  # Detailed achievements display
-  achievements-detailed:
+  # GitHub achievements
+  achievements:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -66,10 +88,12 @@ jobs:
           user: Arison99
           base: ""
           plugin_achievements: yes
-          plugin_achievements_only: sponsor, maintainer, octonaut
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
           config_timezone: Africa/Kampala
 
-  # Stargazers using classic charts
+  # Stargazers chart
   stargazers:
     runs-on: ubuntu-latest
     permissions:
@@ -82,6 +106,7 @@ jobs:
           user: Arison99
           base: ""
           plugin_stargazers: yes
+          plugin_stargazers_charts_type: classic
           config_timezone: Africa/Kampala
 
   # Code snippet of the day
@@ -97,11 +122,13 @@ jobs:
           user: Arison99
           base: ""
           plugin_code: yes
-          plugin_code_languages: javascript, typescript, python, java, c, cpp
+          plugin_code_days: 3
+          plugin_code_lines: 12
           plugin_code_load: 400
+          plugin_code_visibility: public
           config_timezone: Africa/Kampala
 
-  # Languages detailed view
+  # Detailed language statistics
   languages-detailed:
     runs-on: ubuntu-latest
     permissions:
@@ -109,7 +136,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.languages.details.svg
+          filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: Arison99
           base: ""
@@ -118,10 +145,12 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
+          plugin_languages_limit: 12
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
           config_timezone: Africa/Kampala
 
-  # Isometric calendar
+  # Isometric contribution calendar
   isocalendar:
     runs-on: ubuntu-latest
     permissions:
@@ -137,8 +166,8 @@ jobs:
           plugin_isocalendar_duration: full-year
           config_timezone: Africa/Kampala
 
-  # Activity timeline
-  activity:
+  # Recent activity timeline
+  activity-timeline:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -153,4 +182,106 @@ jobs:
           plugin_activity_days: 14
           plugin_activity_filter: all
           plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_visibility: all
+          config_timezone: Africa/Kampala
+
+  # Notable contributions
+  notable:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
+          config_timezone: Africa/Kampala
+
+  # Repository topics/interests
+  topics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: starred
+          plugin_topics_sort: stars
+          config_timezone: Africa/Kampala
+
+  # Stars and repositories
+  stars:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stars.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 4
+          config_timezone: Africa/Kampala
+
+  # Reactions summary
+  reactions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.reactions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_display: absolute
+          plugin_reactions_limit: 200
+          plugin_reactions_limit_issues: 100
+          config_timezone: Africa/Kampala
+
+  # Public gists
+  gists:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.gists.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_gists: yes
+          config_timezone: Africa/Kampala
+
+  # GitHub discussions
+  discussions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.discussions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_discussions: yes
+          plugin_discussions_categories: yes
           config_timezone: Africa/Kampala
