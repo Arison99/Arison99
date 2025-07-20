@@ -75,7 +75,7 @@ jobs:
           plugin_habits_languages_limit: 8
           config_timezone: Africa/Kampala
 
-  # GitHub achievements
+  # GitHub achievements (simplified to avoid errors)
   achievements:
     runs-on: ubuntu-latest
     permissions:
@@ -88,9 +88,8 @@ jobs:
           user: Arison99
           base: ""
           plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B
           config_timezone: Africa/Kampala
 
   # Stargazers chart
@@ -109,7 +108,7 @@ jobs:
           plugin_stargazers_charts_type: classic
           config_timezone: Africa/Kampala
 
-  # Code snippet of the day
+  # Code snippet of the day (enhanced configuration)
   code-snippet:
     runs-on: ubuntu-latest
     permissions:
@@ -122,10 +121,11 @@ jobs:
           user: Arison99
           base: ""
           plugin_code: yes
-          plugin_code_days: 3
-          plugin_code_lines: 12
-          plugin_code_load: 400
+          plugin_code_days: 7
+          plugin_code_lines: 15
+          plugin_code_load: 1000
           plugin_code_visibility: public
+          plugin_code_skipped: Arison99/Arison99
           config_timezone: Africa/Kampala
 
   # Detailed language statistics
