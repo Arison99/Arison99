@@ -3,7 +3,9 @@ on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
+
 jobs:
+  # Main comprehensive metrics
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
@@ -16,99 +18,139 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Africa/Kampala
-          
-          # Languages plugin
+
+  # Mildly interesting facts
+  habits-facts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.facts.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_timezone: Africa/Kampala
+
+  # Recent activity charts  
+  habits-charts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.charts.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          config_timezone: Africa/Kampala
+
+  # Detailed achievements display
+  achievements-detailed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: sponsor, maintainer, octonaut
+          config_timezone: Africa/Kampala
+
+  # Stargazers using classic charts
+  stargazers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stargazers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_stargazers: yes
+          config_timezone: Africa/Kampala
+
+  # Code snippet of the day
+  code-snippet:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: javascript, typescript, python, java, c, cpp
+          plugin_code_load: 400
+          config_timezone: Africa/Kampala
+
+  # Languages detailed view
+  languages-detailed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.details.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
+          plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-          
-          # Lines of code
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
-          
-          # Follow-up issues and PRs
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_sections: repositories
-          
-          # Activity plugin
+          config_timezone: Africa/Kampala
+
+  # Isometric calendar
+  isocalendar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Africa/Kampala
+
+  # Activity timeline
+  activity:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Arison99
+          base: ""
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: all
           plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          
-          # Achievements
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          
-          # Notable contributions
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_types: commit
-          
-          # Discussions
-          plugin_discussions: yes
-          plugin_discussions_categories: yes
-          
-          # Topics (interests)
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: starred
-          plugin_topics_sort: stars
-          
-          # Stars plugin
-          plugin_stars: yes
-          plugin_stars_limit: 4
-          
-          # Habits
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
-          
-          # Code frequency
-          plugin_code: yes
-          plugin_code_days: 3
-          plugin_code_load: 400
-          plugin_code_lines: 12
-          plugin_code_visibility: public
-          
-          # Isometric calendar
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          
-          # Recent activity
-          plugin_reactions: yes
-          plugin_reactions_display: absolute
-          plugin_reactions_limit: 200
-          plugin_reactions_limit_discussions: 100
-          plugin_reactions_limit_discussions_comments: 100
-          plugin_reactions_limit_issues: 100
-          
-          # Traffic (if you have access)
-          plugin_traffic: yes
-          
-          # Gists
-          plugin_gists: yes
-          
-          # Skyline (3D contributions)
-          plugin_skyline: yes
-          plugin_skyline_frames: 60
-          plugin_skyline_quality: 0.5
-          plugin_skyline_year: current-year
+          config_timezone: Africa/Kampala
