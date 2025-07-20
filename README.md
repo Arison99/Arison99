@@ -75,7 +75,9 @@
 
 
 <br>
-![Main Metrics](github-metrics.svg)
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>
 
 ![Habits Facts](metrics.plugin.habits.facts.svg)
 ![Habits Charts](metrics.plugin.habits.charts.svg)
