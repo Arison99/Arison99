@@ -75,9 +75,19 @@
 
 
 <br>
-<picture>
-  <img src="/github-metrics.svg" alt="Metrics">
-</picture>
+![Main Metrics](github-metrics.svg)
+
+![Habits Facts](metrics.plugin.habits.facts.svg)
+![Habits Charts](metrics.plugin.habits.charts.svg)
+
+![Achievements](metrics.plugin.achievements.svg)
+![Stargazers](metrics.plugin.stargazers.svg)
+
+![Code Snippet](metrics.plugin.code.svg)
+
+![Languages](metrics.plugin.languages.details.svg)
+![Calendar](metrics.plugin.isocalendar.svg)
+![Activity](metrics.plugin.activity.svg)
 
 ## GitAds Sponsored
 [![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=arison99/arison99@github)](https://gitads.dev/v1/ad-track?source=arison99/arison99@github)
