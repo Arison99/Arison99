@@ -11,7 +11,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arison99" alt="arison99" /></a> </p>
 
-- 🔭 I’m currently working on **AI Model( Forex Predictor)** 
+- 🔭 I’m currently building **VPNs & Private DNS Services** 
 
 <p align="center">
 <b> LocalHive </b>
@@ -26,9 +26,9 @@
 <img align="center" src="./Sparrow.png" width="100%" height="400px" >
 <b>
 
-- 🌱 I’m currently learning **Web development, DSA, LeetCode, AI/ML, Distributed & Embedded Systems,  Real-Time-Systems, Complex Systems, Network Programming & DataOps**
+- 🌱 I currently major in **Web development, DSA, LeetCode, AI/ML, Distributed & Embedded Systems,  Real-Time-Systems, Complex Systems, Network Programming & DataOps, VPNs, Enterprise Networks, Cloud Computing, Software Defined Networking, Mobile Apps, Platform Engineering, DevOps, Microservices**
 
-- 👯 I’m looking to collaborate on **Open source projects**
+- 👯 I'm willing to collaborate on **Open source projects**
 
 - 👨‍💻 All of my projects are available at [github.com/Arison99](github.com/Arison99)
 
