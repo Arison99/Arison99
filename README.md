@@ -47,14 +47,9 @@
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+<img height="32" width="32" src="https://unpkg.com/simple-icons@v16/icons/openvpn.svg" />
 
 </p>
-</p>
-
-
-<h4 align="left">VPN & Network Protocols:</h4>
-
-
 </p>
 
  
