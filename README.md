@@ -11,7 +11,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arison99" alt="arison99" /></a> </p>
 
-- 🔭 I’m currently building **VPNs & Private DNS Services,BGP networks, VoIP networks & Traffic Engineering** 
+- 🔭 I’m currently building **VPNs & Private DNS Services,BGP networks, VoIP & Traffic Engineering,AAA in Networks using RADIUS** 
 
 <p align="center">
 <b> LocalHive </b>
@@ -26,7 +26,7 @@
 <img align="center" src="./Sparrow.png" width="100%" height="400px" >
 <b>
 
-- 🌱 I currently major in **Web development, DSA, LeetCode, AI/ML, Distributed & Embedded Systems,  Real-Time-Systems, Complex Systems, Network Programming & DataOps, VPNs, Enterprise Networks, Cloud Computing, Software Defined Networking, Mobile Apps, Platform Engineering, DevOps, Microservices**
+- 🌱 I currently major in **Web development, AI/ML, Distributed & Embedded Systems,  Real-Time-Systems, Complex Systems, Network Programming & DataOps, VPNs, Enterprise Networks, Cloud Computing, Software Defined Networking, Mobile Apps, Platform Engineering, DevOps, Microservices,AAA(RADIUS), Data Center Networking**
 
 - 👯 I'm willing to collaborate on **Open source projects**
 
