@@ -26,7 +26,7 @@
 <img align="center" src="./Sparrow.png" width="100%" height="400px" >
 <b>
 
-- 🌱 I currently major in **Web development, AI/ML, Distributed & Embedded Systems,  Real-Time-Systems, Complex Systems, Network Programming & DataOps, VPNs, Enterprise Networks, Cloud Computing, Software Defined Networking, Mobile Apps, Platform Engineering, DevOps, Microservices,AAA(RADIUS), Data Center Networking**
+- 🌱 I'm excited to work on **Web development, AI/ML, Distributed & Embedded Systems,  Real-Time-Systems, Complex Systems, Network Programming & DataOps, VPNs, Enterprise Networks, Cloud Computing, Software Defined Networking, Mobile Apps, Platform Engineering, DevOps, Microservices,AAA(RADIUS), Data Center Networking, Mobile Networks**
 
 - 👯 I'm willing to collaborate on **Open source projects**
 
