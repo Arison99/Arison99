@@ -89,24 +89,7 @@ jobs:
           plugin_stargazers_charts_type: classic
           config_timezone: Africa/Kampala
 
-  # Code snippet of the day (fixed configuration)
-  code-snippet:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.code.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Arison99
-          base: ""
-          plugin_code: yes
-          plugin_code_days: 3
-          plugin_code_lines: 12
-          plugin_code_load: 400
-          plugin_code_visibility: public
-          config_timezone: Africa/Kampala
+
 
   # Recent activity timeline (fixed configuration)
   activity:
