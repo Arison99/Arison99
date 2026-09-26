@@ -34,8 +34,6 @@
 
 - 💬 Ask me about **Networks,Computers & Fine Art**
 
-- 📫 How to reach me **harrisondaviinci@gmail.com**
-
 
 
 <h3 align="left">Languages and Tools:</h3>
