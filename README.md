@@ -9,7 +9,7 @@
 <img align="center" alt="GIF" src="https://raw.githubusercontent.com/Arison99/Arison99/main/techstack.gif" width="100%" height="400px"/>
 
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arison99" alt="arison99" /></a> </p>
+<p align="left"> <a href="[https://github-trophies.devomb.com/github-profile-trophy"><img src="https://github-trophies.devomb.com/?username=arison99" alt="arison99" /></a> </p>
 
 - 🔭 I’m currently building **VPNs & Private DNS Services,BGP networks, VoIP & Traffic Engineering,AAA in Networks using RADIUS** 
 
