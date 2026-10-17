@@ -4,7 +4,7 @@
 
 <!-- GitAds-Verify: 8M6K4P5JY693IEQPYR99KKSYOS8ADU89 -->
 <h1 align="center">Hi 👋, I'm Arison</h1>
-<h3 align="center">A passionate Software Engineering student from Uganda.</h3>
+<h3 align="center">A passionate Software Engineering student from Uganda and working as a Software | Network Engineer at WispLabs.</h3>
 
 <img align="center" alt="GIF" src="https://raw.githubusercontent.com/Arison99/Arison99/main/techstack.gif" width="100%" height="400px"/>
 
